@@ -1,0 +1,31 @@
+.container {
+  width: 50%;
+  margin: 200px auto;
+  text-align: center;
+}
+.todoAdd input {
+  height: 25px;
+  border-radius: 5px;
+}
+.todoAdd button {
+  height: 30px;
+  font-weight: bold;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.todoList {
+  padding: 0;
+}
+.todoList li {
+  margin-left: 35%;
+  list-style-type: circle;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.filter {
+  font-size: 1.3rem;
+}
+.filter a {
+  color: #2b90d9;
+  text-decoration: none;
+}
